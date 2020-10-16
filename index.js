@@ -649,7 +649,7 @@ bot.on('message',msg=>{
 bot.on('message',msg=>{
 	if(msg.content.toLowerCase() === "yandev help"){
 		msg.reply('**YANDEREBOT HELP**');
-		msg.channel.send('This is a list of all the things YandereBot can reply to.');
+		msg.channel.send('This is a list of all the things YandereBot can reply to. **NO MORE COMMANDS WILL BE ADDED, USE COMMAND YANDEV SOURCE TO LEARN MORE**');
 		msg.channel.send(' All of these are placed in an image due to *GREAT CODING PRACTICES.* The bot may lag while sending these, so be patient.')
 		msg.channel.send('https://cdn.discordapp.com/attachments/741547902983208971/742104382769856643/YanbotCodelist.png')
 		
@@ -661,7 +661,7 @@ bot.on('message',msg=>{
 	if(msg.content.toLowerCase() === "yandev help 2"){
 		msg.reply('**YANDEREBOT HELP: ELECTRIC BOOGALOO**');
 		msg.channel.send('This is a list of all the things YandereBot can reply to.');
-		msg.channel.send(' All of these are placed in an image due to *GREAT CODING PRACTICES.* The bot may lag while sending these, so be patient.')
+		msg.channel.send(' All of these are placed in an image due to *GREAT CODING PRACTICES.* The bot may lag while sending these, so be patient. **NO MORE COMMANDS WILL BE ADDED, USE COMMAND YANDEV SOURCE TO LEARN MORE**');')
 		msg.channel.send('https://cdn.discordapp.com/attachments/739631028808974419/741183070132109342/YanbotCodelist2.png')
 		
     }   
@@ -702,4 +702,14 @@ bot.on('message',msg=>{
 
     }   
 	
+})
+
+bot.on('message',msg=>{
+    if(msg.content.toLowerCase() === "yandev source"){
+        msg.channel.send('The YandereBot has been discontinued and wont be developed any further by the original creator, Upwader.')
+        msg.channel.send('You can download the YandereBot source code at https://github.com/upwader/YandereBot');
+
+
+    }   
+    
 })
