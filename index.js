@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = 'NzM5NjY3MTU0MzQ5MDY0MjE0.Xydytw.diw8S59lLdzybDWWph9ZsMyrhHk'
+const token = 'REPLACE THIS, lemme tell you a story. yesterday i go to bed uploading the YandereBot code and my phone vibrates with a notif from Discord. I open it and see that theres an important message from the discord team that requires my attention. usually these messages scare me a lot because ive been warned before. I see that im fucking retarded and i accidentally leaked my own bot token LMAO. Luckily discord made it so it generates and gives itself a new token. rip'
 
 
 //made by upwader. upwader.com 
