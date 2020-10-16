@@ -1,0 +1,14 @@
+{
+  "name": "yanderebot",
+  "version": "1.0.0",
+  "description": "Wanna see how it feels to be YandereDev'd? You can now with the YandereBot! Get insulted and manipulated without having to DM a person and gambling between he blocking you or you getting what you want.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Upwader",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
